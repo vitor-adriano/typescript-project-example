@@ -1,0 +1,11 @@
+{
+  "quoteProps": "as-needed",
+  "arrowParens": "avoid",
+  "endOfLine": "lf",
+  "bracketSpacing": true,
+  "singleQuote": false,
+  "trailingComma": "none",
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "semi": true
+}

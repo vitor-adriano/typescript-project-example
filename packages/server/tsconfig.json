@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": [
+      "es6"
+    ],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "typeRoots": [
+      "../../node_modules/@types",
+      "src/**/Contracts"
+    ],
+    "paths": {
+      "@App/*": [
+        "./app/*"
+      ],
+      "@Controllers/*": [
+        "./controllers/*"
+      ],
+      "@Models/*": [
+        "./models/*"
+      ],
+      "@Routes/*": [
+        "./routes/*"
+      ]
+    }
+  },
+  "extends": "../../tsconfig.json",
+  "include": [
+    "./src/**/*"
+  ]
+}

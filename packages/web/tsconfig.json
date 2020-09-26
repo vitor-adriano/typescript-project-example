@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "@App/*": [
+        "./app/*"
+      ],
+      "@Components/*": [
+        "./components/*"
+      ],
+      "@Routes/*": [
+        "./routes/*"
+      ],
+      "@Services/*": [
+        "./services/*"
+      ],
+      "@Store/*": [
+        "./store/*"
+      ],
+      "@Utils/*": [
+        "./utils/*"
+      ]
+    }
+  },
+  "extends": "../../tsconfig.json",
+  "include": [
+    "./src/**/*"
+  ]
+}
